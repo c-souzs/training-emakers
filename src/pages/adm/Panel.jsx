@@ -1,3 +1,3 @@
 export default function Panel() {
-    return <div>Panel</div>;
+    return <div>New panel</div>;
 }
