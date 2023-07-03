@@ -1,9 +1,9 @@
-import { useParams } from "react-router-dom";
+import { useParams } from 'react-router-dom'
 
 export default function Game() {
-    const { slug } = useParams();
+  const { slug } = useParams()
 
-    console.log(slug);
+  console.log(slug)
 
-    return <div>{slug}</div>;
+  return <div>{slug}</div>
 }
