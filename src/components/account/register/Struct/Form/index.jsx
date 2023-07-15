@@ -1,4 +1,4 @@
-import Button from '../../../../ui/Button'
+import ButtonPrimary from '../../../../ui/ButtonPrimary'
 import Input from '../../../../ui/Input'
 
 import EastOutlinedIcon from '@mui/icons-material/EastOutlined'
@@ -12,7 +12,11 @@ export default function RegisterForm() {
             <Input placeholder="CPF" required />
             <Input type="password" placeholder="Senha" required />
             <Input type="password" placeholder="Confirmar Senha" required />
-            <Button text="Acessar conta" animate icon={EastOutlinedIcon} />
+            <ButtonPrimary
+                text="Acessar conta"
+                animate
+                icon={EastOutlinedIcon}
+            />
         </S.Form>
     )
 }

@@ -9,9 +9,9 @@ export default function LayoutAccount() {
             <S.ContainerOutlet>
                 <Outlet />
             </S.ContainerOutlet>
-            <section>
+            <S.ContainerBanner>
                 <S.Banner src={banner} alt="Banner site" />
-            </section>
+            </S.ContainerBanner>
         </S.Account>
     )
 }

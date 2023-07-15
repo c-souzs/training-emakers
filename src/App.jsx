@@ -8,6 +8,8 @@ import Login from './pages/account/Login'
 import Register from './pages/account/Register'
 import LostPassword from './pages/account/LostPassword'
 import LayoutAccount from './components/ui/Layouts/Account'
+import Game from './pages/Game'
+import Adm from './pages/Panel'
 
 export default function App() {
     return (
@@ -19,6 +21,14 @@ export default function App() {
                     element={
                         <LayoutRoot>
                             <Home />
+                        </LayoutRoot>
+                    }
+                />
+                <Route
+                    path="/adm"
+                    element={
+                        <LayoutRoot>
+                            <Adm />
                         </LayoutRoot>
                     }
                 />
@@ -35,6 +45,14 @@ export default function App() {
                     element={
                         <LayoutRoot>
                             <ShoppingCart />
+                        </LayoutRoot>
+                    }
+                />
+                <Route
+                    path="/game/:id"
+                    element={
+                        <LayoutRoot>
+                            <Game />
                         </LayoutRoot>
                     }
                 />

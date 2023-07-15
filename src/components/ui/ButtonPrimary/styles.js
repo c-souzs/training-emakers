@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components'
 
 export const Button = styled.button`
     width: fit-content;
+    min-width: 200px;
     background-color: #4b626c;
     color: #fbf6f0;
     font-size: 16px;
@@ -16,10 +17,6 @@ export const Button = styled.button`
     align-items: center;
     gap: 8px;
 
-    transition-property: color, background-color, border-color,
-        text-decoration-color, fill, stroke;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 150ms;
     ${(props) => {
         const { animate } = props
 

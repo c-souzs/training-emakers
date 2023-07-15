@@ -16,7 +16,7 @@ export const Input = styled.input`
     padding: 10px 12px;
     border-radius: 4px;
     outline: none;
-    border: 2px solid #000;
+    border: 2px solid #4b626c;
     box-shadow: none;
     font-size: 16px;
 
@@ -27,13 +27,6 @@ export const Input = styled.input`
 
     &:focus,
     &:hover {
-        border-color: #4b626c;
-        box-shadow: 0 0 0 3px #e4e8ea;
+        border-color: #000;
     }
-`
-
-export const ErrorMessage = styled.p`
-    font-size: 14px;
-    font-weight: 600;
-    color: #e54;
 `
